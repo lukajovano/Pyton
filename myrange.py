@@ -1,5 +1,5 @@
 def my_range(m,n):
     output = []
-    while m + 1 < n:
+    while m < n:
         m = m + 1
-        print(m)
+        print(m-1)
